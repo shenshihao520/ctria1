@@ -1,0 +1,180 @@
+[
+    {
+        "outputFile": "C:\\Users\\Administrator\\Desktop\\studio_bakworkspace\\ctria1\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\studio_bakworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\studio_bakworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 656,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 881
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\studio_bakworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 958,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 1186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 886,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1034
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\studio_bakworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1198,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1350
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\androidworkspace\\ctria1\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "E:\\androidworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "E:\\androidworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 656,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 881
+                },
+                "from": {
+                    "file": "E:\\androidworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 958,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 1186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 886,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1034
+                },
+                "from": {
+                    "file": "E:\\androidworkspace\\ctria1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1198,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1350
+                    }
+                }
+            }
+        ]
+    }
+]

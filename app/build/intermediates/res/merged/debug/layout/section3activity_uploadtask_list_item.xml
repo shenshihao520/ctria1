@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y61"
+    android:background="@color/white" >
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout1"
+      style="@style/updateBoarder_new2"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true" >
+ 
+      <TextView
+          android:id="@+id/TextView01"
+          style="@style/updatetext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="@dimen/x18"
+          android:layout_marginTop="@dimen/y4"
+          android:text="时间" />
+
+      <TextView
+          android:id="@+id/TextView05"
+          style="@style/updatetext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/time"
+          android:layout_centerHorizontal="true"
+          android:text="类型" />
+
+      <TextView
+          android:id="@+id/TextView09"
+          style="@style/updatetext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/time"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="@dimen/x20"
+          android:text="状态" />
+
+      <TextView
+          android:id="@+id/time"
+          style="@style/maintext_upload"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/x10"
+          android:layout_below="@+id/TextView01"
+          android:text="15:23`36" />
+
+      <TextView
+          android:id="@+id/uploadcondition"
+          style="@style/maintext_upload"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/checkcategory"
+          android:layout_alignBottom="@+id/checkcategory"
+          android:layout_alignRight="@+id/TextView09"
+          android:clickable="true"
+          android:text="上传成功" />
+
+      <TextView
+          android:id="@+id/checkcategory"
+          style="@style/maintext_upload"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/time"
+          android:layout_alignBottom="@+id/time"
+          android:layout_centerHorizontal="true"
+          android:text="王小虎" />
+
+  </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corners_relative" >
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout1"
+      style="@style/updateBoarder_new"
+      android:layout_below="@+id/S4MessageTitle"
+      android:layout_centerHorizontal="true"
+      >
+
+      <TextView
+          android:id="@+id/message_T"
+          style="@style/textview_manywords"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="与服务端交互过程中存在的错误进行介绍。另外，为使开发者能够较快的熟悉和使用SDK接口，给出了pushMsgToSingleDevice接口的调用流程实例。如果开发者想了解更多接口的使用方法，可查看com.baidu.yun.push.sample包中的实例。" />
+
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/S4MessageTitle"
+	  android:textSize="14sp"
+	  android:textColor="#909090"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/relativeLayout1"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="@dimen/y10"
+      android:text="上传任务" />
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/y1"
+      android:layout_below="@+id/relativeLayout1"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="@dimen/y1"
+      />
+
+</RelativeLayout>

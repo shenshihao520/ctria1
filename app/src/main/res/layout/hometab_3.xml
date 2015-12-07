@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x78"
+    android:layout_height="@dimen/y44"
+    android:background="@color/white"
+    android:orientation="vertical" >
+	 <RelativeLayout 
+	     android:layout_width="match_parent"
+	     android:layout_height="@dimen/y43"
+	  >
+		  <RelativeLayout
+		       android:layout_width="@dimen/x74"
+			    android:layout_height="@dimen/y38"
+			   	style="@style/boardertop"
+			    android:gravity="center"
+			    android:orientation="vertical" >
+		       
+		      <TextView
+		        android:id="@+id/tv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginLeft="@dimen/x18"
+		        android:gravity="bottom"
+		        android:text="综合"
+		        android:textColor="@drawable/selector_tab_text_color"
+		        android:textSize="14sp" />
+
+		    <ImageView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@+id/tv"
+		        android:layout_alignParentLeft="true"
+		        android:src="@drawable/top_3" />
+		    	
+		       
+		  </RelativeLayout>
+		  
+  	<TextView
+        android:layout_width="@dimen/x1"
+        android:layout_height="@dimen/y24"
+        android:background="@color/xufang"
+        android:layout_marginTop="@dimen/y9"
+         android:layout_alignParentRight="true" 
+        />
+   </RelativeLayout>
+   
+  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/lucha"
+     
+        />
+</LinearLayout>

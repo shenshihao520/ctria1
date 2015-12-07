@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/S3uploadtasktitle"
+        style="@style/section3titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="上传任务" />
+
+    <cn.apputest.ctria.section3.LoadListView
+        android:id="@+id/lv"
+        style="@style/updateBoarder_list"
+        android:layout_width="@dimen/x290"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+    </cn.apputest.ctria.section3.LoadListView> 
+
+    <ImageButton
+        android:id="@+id/backImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lv"
+        android:layout_alignTop="@+id/S3uploadtasktitle"
+        
+        android:background="@drawable/cancel_white" />
+
+<CheckBox
+    android:id="@+id/checkBox2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/S3uploadtasktitle"
+    android:layout_alignTop="@+id/S3uploadtasktitle"
+    android:layout_toRightOf="@+id/checkBox1"
+    android:scaleX="0.70"
+    android:scaleY="0.70"
+    android:text="人员"
+    android:textSize="22sp"
+    android:textColor="@color/black" />
+
+<CheckBox
+    android:id="@+id/checkBox1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/S3uploadtasktitle"
+    android:layout_centerHorizontal="true"
+     android:layout_alignTop="@+id/S3uploadtasktitle"
+    android:scaleX="0.70"
+    android:scaleY="0.70"
+    android:text="车辆"
+    android:textColor="@color/black"
+    android:textSize="22sp" />
+  
+</RelativeLayout>

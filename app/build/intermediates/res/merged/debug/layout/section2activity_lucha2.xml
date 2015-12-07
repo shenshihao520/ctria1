@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/y33" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        style="@style/boarder"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y106"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/corners_relative" >
+
+        <TextView
+            android:id="@+id/IDcard"
+            style="@style/maintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/x25"
+            android:layout_marginTop="@dimen/y14"
+            android:text="从业资格号：" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            style="@style/maintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/IDcard"
+            android:layout_below="@+id/IDcard"
+            android:layout_marginTop="22dp"
+            android:text="驾驶证号：" />
+
+        <EditText
+            android:id="@+id/IDcardnum"
+            style="@style/edittext"
+            android:layout_width="@dimen/x160"
+            android:layout_height="@dimen/y24"
+            android:layout_alignBaseline="@+id/IDcard"
+            android:layout_alignBottom="@+id/IDcard"
+            android:layout_toRightOf="@+id/IDcard"
+            android:ems="10"
+            android:drawableLeft="@drawable/kongbai3"
+            android:hint="   读卡/或从业资格号"
+            android:singleLine="true" >
+
+            
+        </EditText>
+
+        <EditText
+            android:id="@+id/DriverCardID"
+            style="@style/edittext"
+            android:layout_width="@dimen/x160"
+            android:layout_height="@dimen/y24"
+            android:layout_alignBaseline="@+id/TextView01"
+            android:layout_alignBottom="@+id/TextView01"
+            android:layout_alignLeft="@+id/IDcardnum"
+            android:ems="10"
+            android:drawableLeft="@drawable/kongbai3"
+            android:hint="   读卡/或驾驶证号"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        style="@style/boarder_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y43"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <TextView
+            android:id="@+id/warning_P1"
+            style="@style/warningtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/boarder_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y35"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout2" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            style="@style/maintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/x25"
+            android:layout_marginTop="@dimen/y19"
+            android:text="证件清单：" />
+
+        <RelativeLayout
+            android:id="@+id/uploadrecordlucha"
+            style="@style/buttonstyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" >
+
+            <TextView
+                android:id="@+id/S2_uploadB"
+                style="@style/buttontext_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x31"
+                android:text="上传记录" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/S2_uploadB"
+                android:src="@drawable/down_upload" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chancel1"
+            style="@style/buttonstyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="取消" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/S2_clear_B"
+                android:src="@drawable/down_cancel" />
+
+            <TextView
+                android:id="@+id/S2_clear_B"
+                style="@style/buttontext_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x49"
+                android:text="清空" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/zheng_P2"
+            style="@style/maintext2"
+            android:layout_width="@dimen/x128"
+            android:layout_height="@dimen/y24"
+            android:layout_alignBaseline="@+id/zheng_P1"
+            android:layout_alignBottom="@+id/zheng_P1"
+            android:layout_marginLeft="@dimen/x164"
+            android:gravity="center_vertical"
+            android:text=" 从业资格证" />
+
+        <TextView
+            android:id="@+id/zheng_P1"
+            style="@style/maintext2"
+            android:layout_width="@dimen/x128"
+            android:layout_height="@dimen/y24"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="@dimen/y8"
+            android:layout_marginLeft="@dimen/x20"
+            android:gravity="center_vertical"
+            android:text=" 驾驶证" />
+    </RelativeLayout>
+
+</RelativeLayout>

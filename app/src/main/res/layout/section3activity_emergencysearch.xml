@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white">
+
+    <RelativeLayout
+        style="@style/section3boarder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y133"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/section3_TextView00"
+            style="@style/section3titletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="应急查询" />
+
+        <EditText
+            android:id="@+id/S3cargoname"
+            style="@style/edittext"
+            android:layout_width="@dimen/x160"
+            android:layout_height="@dimen/y24"
+            android:layout_alignBaseline="@+id/S3TextView00"
+            android:layout_alignBottom="@+id/S3TextView00"
+            android:layout_alignRight="@+id/S3wenzi"
+            android:layout_toRightOf="@+id/S3TextView00"
+            android:ems="10"
+            android:drawableLeft="@drawable/kongbai3"
+            android:hint="     读卡 / 输入" />
+        
+         <RelativeLayout
+            android:id="@+id/S3sure"
+            style="@style/buttonstyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+           >
+
+			<ImageView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerVertical="true"
+			    android:layout_toRightOf="@+id/S3_confirmB"
+			    android:src="@drawable/down_submit" />
+
+			<TextView
+			    android:id="@+id/S3_confirmB"
+			    style="@style/buttontext_upload"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+			    android:layout_centerVertical="true"
+			    android:text="确定" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/S3chancel1"
+            style="@style/buttonstyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="取消" >
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:layout_toRightOf="@+id/S3_cancelB"
+                  android:src="@drawable/down_cancel" />
+
+              <TextView
+                  android:id="@+id/S3_cancelB"
+                  style="@style/buttontext_upload"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="46dp"
+                  android:text="取消" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/S3TextView00"
+            style="@style/maintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/S3wenzi"
+            android:layout_below="@+id/section3_TextView00"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="26dp"
+            android:text="货物名称：" />
+
+        <RelativeLayout
+            android:id="@+id/S3wenzi"
+            style="@style/innerborder"
+            android:layout_width="@dimen/x280"
+            android:layout_height="@dimen/y188"
+            android:layout_alignLeft="@+id/section3_TextView00"
+            android:layout_below="@+id/S3cargoname"
+            android:layout_marginTop="17dp" >
+
+            <TextView
+                android:id="@+id/emergencysearchTextView"
+                style="@style/textview_manywords"
+                android:text=" " />
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

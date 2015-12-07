@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7800</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="grassgreen">#7fff00</color>
+    <color name="green">#00FF00</color>
+    <color name="freshgreen">#ff7f00</color>
+
+    <color name="Cyan">#00ffff</color>
+    <color name="brightblue">#007fff</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#ff00ff</color>
+    <color name="Magenta">#7f00ff</color>
+    <color name="waterred">#ff007f</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+	<color name="xufang">#c2c2c4</color>
+	<color name="lucha">#00A2EF</color>
+	<color name="hui">#e2e2e3</color>
+	
+  <color name="button_upload">#B1B1B1</color>
+    <color name="maintextcolor">#606060</color>
+    <color name="buttonback">#737373</color>
+    
+    <color name="maintext2">#1F1F1F</color>
+    <color name="warningtext">#ff4500</color>
+   <color name="section3bule">#3893CA</color>
+  <color name="loginblue">#1465a7</color>
+    
+	
+	<color name="login_1">#1A7FD7</color>
+	<color name="login_2">#4B9EEA</color>
+	<color name="login_3">#ADBFC3</color>
+<color name="markview">#f8f8f8</color>
+<color name="markview2">#f0f0f0</color>
+<color name="markview3">#ADA9A9</color>
+</resources>

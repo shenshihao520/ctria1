@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:id="@+id/emergencysearch"
+            style="@style/buttonboarder"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/x15"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/section3_pic1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/buttonboarder_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:text="应急查询" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/uploadtask"
+            style="@style/buttonboarder_bottom"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/emergencysearch" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/buttonboarder_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView3"
+                android:layout_centerHorizontal="true"
+                android:text="上传任务" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x15"
+                android:src="@drawable/section3_pic3" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/passwordsetting"
+            style="@style/buttonboarder_bottom"
+            android:layout_above="@+id/uploadtask"
+            android:layout_toRightOf="@+id/emergencysearch" >
+
+            <TextView
+                style="@style/buttonboarder_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:text="密码设置" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x15"
+                android:src="@drawable/section3_pic4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/updatedata"
+            style="@style/buttonboarder_bottom"
+            android:layout_below="@+id/emergencysearch"
+            android:layout_toRightOf="@+id/emergencysearch" >
+
+            <TextView
+                style="@style/buttonboarder_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView4"
+                android:layout_centerHorizontal="true"
+                android:text="关于" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/x13"
+                android:src="@drawable/about" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/logout"
+        style="@style/bigbuttontext"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y47"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/textView3"
+            android:src="@drawable/section3_pic5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/buttonboarder_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="109dp"
+            android:text="注    销" />
+    </RelativeLayout>
+
+</RelativeLayout>

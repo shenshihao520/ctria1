@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/buttonstyle"
+    android:id="@+id/superbutton"
+    android:gravity="center"
+ >
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/buttontext_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x18"
+        android:text="上传记录" />
+
+    <ImageView
+        android:id="@+id/SuperButton_I"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:src="@drawable/down_upload" />
+</RelativeLayout>
+</RelativeLayout>

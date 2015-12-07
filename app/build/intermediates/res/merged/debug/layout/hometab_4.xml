@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x78"
+    android:layout_height="@dimen/y44"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y43" >
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            style="@style/boardertop"
+            android:layout_width="@dimen/x74"
+            android:layout_height="@dimen/y38"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/wx_imgv"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/y25"
+                android:layout_gravity="top|center"
+                android:src="@drawable/top_4" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/wx_textview"
+                style="@style/tab_msgnum_style"
+                android:layout_gravity="top|center"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:text="12" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="@dimen/y24"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/y9"
+            android:background="@color/xufang" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/frameLayout1"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom"
+            android:text="消息"
+            android:textColor="@drawable/selector_tab_text_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/lucha" />
+
+</LinearLayout>
